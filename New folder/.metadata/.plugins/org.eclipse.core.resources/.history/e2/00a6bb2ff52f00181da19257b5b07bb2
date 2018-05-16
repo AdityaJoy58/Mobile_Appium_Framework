@@ -1,0 +1,15 @@
+package com.mobile.appium.Pages;
+
+import io.appium.java_client.AppiumDriver;
+
+public class Home {
+	AppiumDriver driver = null;
+	public Home(AppiumDriver driver)
+	{
+		this.driver = driver;
+	}
+	public boolean isDisplayed()
+	{
+		return driver.findElementByXPath("//*[@resource-id='at.markushi.reveal:id/title']").isDisplayed();
+	}	
+}

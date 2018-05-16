@@ -1,0 +1,8 @@
+package com.mobile.appium.Pages;
+
+public class Home {
+	public boolean isDisplayed()
+	{
+		
+	}	
+}

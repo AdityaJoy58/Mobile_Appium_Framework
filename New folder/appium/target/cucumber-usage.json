@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^I validate the outcomes$",
+    "steps": [
+      {
+        "name": "I validate the outcomes",
+        "aggregatedDurations": {
+          "average": 0.000034896,
+          "median": 0.000034896
+        },
+        "durations": [
+          {
+            "duration": 0.000034896,
+            "location": "Payment.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I complete action$",
+    "steps": [
+      {
+        "name": "I complete action",
+        "aggregatedDurations": {
+          "average": 0.000034897,
+          "median": 0.000034897
+        },
+        "durations": [
+          {
+            "duration": 0.000034897,
+            "location": "Payment.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I want to write a step with precondition$",
+    "steps": [
+      {
+        "name": "I want to write a step with precondition",
+        "aggregatedDurations": {
+          "average": 0.000118032,
+          "median": 0.000118032
+        },
+        "durations": [
+          {
+            "duration": 0.000118032,
+            "location": "Payment.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+package com.mobile.appium.StepDefinitions;
+
+import cucumber.api.java.en.*;
+import com.mobile.appium.Pages.*;
+public class LoginStepDef
+{
+	Home home = new Home();
+	@Given("^user is on homepage$")
+    public void user_is_on_homepage()  {
+        home.isDisplayed();
+  
+    }
+
+    @When("^user clicks on Sign in button$")
+    public void user_clicks_on_Sign_in_button()  {
+        // Write code here that turns the phrase above into concrete actions
+        
+    }
+
+    @Then("^user is displayed login screen$")
+    public void user_is_displayed_login_screen()  {
+        // Write code here that turns the phrase above into concrete actions
+        
+    }	
+}

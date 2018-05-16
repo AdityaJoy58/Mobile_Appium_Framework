@@ -1,0 +1,10 @@
+package com.mobile.appium.Pages;
+import io.appium.java_client.AppiumDriver;
+import com.mobile.appium.framework;
+
+public class Login {
+	public AppiumDriver driver = null;
+	public Login() {
+		this.driver = 
+	}
+}

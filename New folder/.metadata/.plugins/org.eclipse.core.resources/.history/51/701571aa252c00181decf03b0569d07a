@@ -1,0 +1,20 @@
+package com.mobile.appium.StepDefinitions;
+import com.mobile.appium.framework.MobileDriver;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+ 
+public class ScenarioHooks {
+	private MobileDriver md = null;
+	private AppiumDriver driver = null;
+	@Before
+    public void beforeScenario(){
+		md = new MobileDriver("F:/Gopi Mobile Project/config.txt");
+		driver = md.createDriver();
+    }	
+	
+	@After
+    public void afterScenario(){
+       md.killDriver();
+    }
+}

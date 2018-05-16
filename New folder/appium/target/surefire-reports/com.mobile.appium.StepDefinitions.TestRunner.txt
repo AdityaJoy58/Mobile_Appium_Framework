@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: com.mobile.appium.StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 66.577 sec <<< FAILURE! - in com.mobile.appium.StepDefinitions.TestRunner
+feature(com.mobile.appium.StepDefinitions.TestRunner)  Time elapsed: 34.907 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.WebDriverException: java.lang.NullPointerException
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-T1U26LC', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.WebDriverException: 
+java.lang.NullPointerException
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-T1U26LC', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+Caused by: java.lang.NullPointerException
+
+feature(com.mobile.appium.StepDefinitions.TestRunner)  Time elapsed: 29.503 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+

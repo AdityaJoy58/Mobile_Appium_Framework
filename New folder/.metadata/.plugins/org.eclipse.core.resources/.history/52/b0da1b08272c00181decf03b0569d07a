@@ -1,0 +1,14 @@
+package com.mobile.appium.Pages;
+
+public class Home {
+	Appium driver = null;
+	public Home(AppiumDriver driver)
+	{
+		this.driver = driver;
+	}
+	public boolean isDisplayed()
+	{
+		boolean retval = false;
+		return retval;
+	}	
+}

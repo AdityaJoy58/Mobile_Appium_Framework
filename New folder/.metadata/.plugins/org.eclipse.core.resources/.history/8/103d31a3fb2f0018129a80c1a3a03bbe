@@ -1,0 +1,28 @@
+package com.mobile.appium.StepDefinitions;
+
+import cucumber.api.java.en.*;
+import org.testng.Assert;
+import io.appium.java_client.AppiumDriver;
+import com.mobile.appium.Pages.*;
+
+public class LoginStepDef
+{
+	AppiumDriver driver = ScenarioHooks.driver;
+	Home home = new Home(driver);
+	@Given("^user is on homepage$")
+    public void user_is_on_homepage()  {
+        Assert.assertEquals(home.isDisplayed(), true, "Home Page not displayed");
+    }
+    @When("^user chceks slow motion option$")
+    public void user_clicks_on_Sign_in_button()  { 
+        
+    }
+
+    @When("^user checks enable reveal color view option$")
+    public void user_is_displayed_login_screen()  {
+    }
+    
+    @When("^unchecks enable action view option$")
+    public void user_is_displayed_login_screen()  {
+    }	
+}

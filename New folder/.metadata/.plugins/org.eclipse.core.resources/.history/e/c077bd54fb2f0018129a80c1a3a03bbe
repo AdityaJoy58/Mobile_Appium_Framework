@@ -1,0 +1,10 @@
+Feature: Login
+
+  @Regression
+    Scenario: login without username and password
+    Given user is on homepage
+    When user chceks slow motion option
+    And user chceks enable reveal color view option
+    And unchceks enable action view option
+
+  

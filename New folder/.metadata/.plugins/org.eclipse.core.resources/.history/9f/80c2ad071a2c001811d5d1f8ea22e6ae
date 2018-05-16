@@ -1,0 +1,10 @@
+package com.mobile.appium.framework;
+
+public class Entry {
+
+	public static void main(String[] args) {
+		MobileDriver md = new MobileDriver("config.json");
+		md.createDriver();
+	}
+
+}

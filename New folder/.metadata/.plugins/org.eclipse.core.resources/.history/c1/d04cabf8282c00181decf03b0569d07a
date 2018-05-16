@@ -1,0 +1,8 @@
+{
+    deviceID = "0715f7cb05693638";
+    os = "Android";
+    deviceName = "Samsung";
+    appPath = "C:\example.apk";
+    packageName = "at.markushi.reveal";
+    activityName = "at.markushi.reveal.MyActivity";
+}
